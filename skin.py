@@ -1566,9 +1566,6 @@ def readSkin(screen, skin, names, desktop):
      'applet': process_applet,
      'eLabel': process_elabel,
      'ePixmap': process_epixmap,
-     'eCursor': process_ecursor,
-     'eFrame': process_eframe,
-     'eBar': process_ebar,
      'panel': process_panel}
     try:
         print '[SKIN] processing screen %s:' % name
