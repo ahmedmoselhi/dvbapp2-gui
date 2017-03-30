@@ -437,7 +437,7 @@ profile("Standby,PowerKey")
 import Screens.Standby
 from Screens.Menu import MainMenu, mdom
 from GlobalActions import globalActionMap
-from enigma import *
+from EGAMI.EGAMI_tools import *
 
 if not checkkernel():
 	from os import system
